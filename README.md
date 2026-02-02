@@ -91,3 +91,13 @@ This experiment demonstrates that handling class imbalance is crucial in fraud d
 ---
 
 ## Repository Structure
+
+![alt text](image-1.png)
+
+
+
+---
+
+## Author
+Vishwas Khattar
+
