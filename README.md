@@ -88,6 +88,34 @@ This experiment demonstrates that handling class imbalance is crucial in fraud d
 - Jupyter Notebook
 - VS Code
 
+
+
+## Key Observations
+
+- SMOTE creates synthetic samples for the minority class instead of simply duplicating existing data points, helping models learn better decision boundaries.
+
+- A highly imbalanced dataset can severely bias machine learning models toward the majority class if no sampling technique is applied.
+
+- Tree-based models such as Decision Tree and Random Forest achieved very high accuracy due to their ability to memorize resampled training data.
+
+- 100% accuracy indicates overfitting rather than perfect generalization, especially when evaluation is performed on the resampled training dataset.
+
+- Linear models like Logistic Regression showed more stable but comparatively lower performance due to their limited capacity to capture complex patterns.
+
+- Distance-based models such as KNN and SVM benefited significantly from oversampling techniques and feature scaling.
+
+- Under-sampling techniques may lead to information loss, negatively affecting model performance.
+
+- Sampling techniques influence different models in different ways; no single sampling method performs best for all machine learning models.
+
+- Proper selection of sampling technique and model architecture is crucial for handling real-world imbalanced classification problems such as fraud detection.
+
+
+
+
+
+
+
 ---
 
 ## Repository Structure
